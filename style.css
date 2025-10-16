@@ -1,0 +1,251 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.block1{
+    background: linear-gradient( to left, orange, cyan);
+    float: left;
+    width: 470px;
+    height: 450px;
+}
+
+.block2{
+    background: linear-gradient( to left, green, red);
+    float: left;
+    width: 470px;
+    height: 450px;
+}
+
+.block3{
+    background: linear-gradient( to left, blue,orange );
+    float: left;
+    width: 470px;
+    height: 450px;
+}
+
+.block4{
+    background: linear-gradient( to left, yellow, purple);
+    float: left;
+    width: 470px;
+    height: 450px;
+}
+
+.block1 li{
+    background-color: blanchedalmond; 
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: "\1F44D";
+    text-align: center;
+}
+
+.block1 li:hover{
+    background-color: brown;
+    color: white;
+    list-style-type: "\2705";
+    width: 70%;
+    height: 70px;
+}
+
+.block2 li{
+    background-color: blanchedalmond; 
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: "\1F44D";
+    text-align: center;
+}
+
+.block2 li:hover{
+    background-color: brown;
+    color: white;
+    list-style-type: "\2705";
+    width: 70%;
+    height: 70px;
+}
+
+.block3 li{
+    background-color: blanchedalmond; 
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: "\1F44D";
+    text-align: center;
+}
+
+.block3 li:hover{
+    background-color: brown;
+    color: white;
+    list-style-type: "\2705";
+    width: 70%;
+    height: 70px;
+}
+
+.block4 li{
+    background-color: blanchedalmond; 
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: "\1F44D";
+    text-align: center;
+}
+
+.block4 li:hover{
+    background-color: brown;
+    color: white;
+    list-style-type: "\2705";
+    width: 70%;
+    height: 70px;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    float: left;
+}
+
+.nav a:hover{
+    background-color:  antiquewhite;
+    color:black
+}
+
+.block5{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: white;
+}
+
+.btn1{
+    width: 250px;
+    height: 70px;
+}
+
+.btn1:hover{
+    background-color: #ebd1a0;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0px 0xp 0px black;
+
+}
+
+.btn1:active{
+    background-color: #054a05;
+    color: white;
+}
+
+form{
+    width: 400px;
+    float: right;
+    display: flex;
+}
+
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+}
+
+.button{
+    width: 25%;
+    background-color: rgb(0, 179, 255);
+    color: azure;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(210, 255, 255);
+    color: rgb(0, 132, 189);
+}
+
+.search{
+    width: 100%;
+    list-style-type: square;
+}
